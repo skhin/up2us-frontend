@@ -1,0 +1,48 @@
+.question_one h1 {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.occasion_bx {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.occasion_bx h1 {
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.occasion {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: fit-content;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.occasion img {
+  margin-right: 50px;
+}
+
+.occ_btn {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px 60px 10px 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.occ_btn:hover {
+  background-color: rgb(116, 116, 212);
+  color: wheat;
+}

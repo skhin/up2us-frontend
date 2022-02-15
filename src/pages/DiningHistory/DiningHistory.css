@@ -1,0 +1,65 @@
+.user_setting .title h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-top: 40px;
+  margin: 20px;
+}
+
+.dining_history,
+.diet_preference {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.diet_preference {
+  cursor: pointer;
+  background: #16a085;
+  margin-bottom: 80px;
+}
+
+.dining_history {
+  background: #e67e22;
+  margin-top: 30px;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.dining_history h1 {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.userOptions h1 {
+  padding-left: 5px;
+  color: #fff;
+}
+
+.userOptions img {
+  width: 200px;
+  height: 150px;
+}
+
+.visRes {
+  width: 800px;
+}
+
+.thumbsUp {
+  width: 600px;
+}
+
+.thumbsdown {
+  width: 500px;
+}
+
+.userOptions {
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.dining_history:hover {
+  transform: scale(1.1);
+}

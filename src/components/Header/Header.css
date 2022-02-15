@@ -1,0 +1,34 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  background: #fb7f00;
+  color: #090043;
+}
+
+.headerMenu {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header ul li a {
+  margin: 0 50px;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #090043;
+}
+
+.header ul li a:hover {
+  color: rgb(156, 11, 11);
+  font-size: 30px;
+  text-decoration: underline;
+}

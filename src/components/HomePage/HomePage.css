@@ -1,0 +1,59 @@
+.home_top {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  padding-right: 50px;
+  max-width: 300px;
+}
+
+.description h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.home_top img {
+  width: 400px;
+  height: 350px;
+}
+
+.home_bottom img {
+  width: 450px;
+  height: 250px;
+}
+
+.home_bottom {
+  padding: 0 20px;
+  height: 45vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.letsgo_desc {
+  text-align: center;
+  max-width: 300px;
+}
+
+.letsgo_desc .ant-btn-primary {
+  margin-top: 10px;
+}
+
+.home__btn {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px 60px 10px 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.home__btn:hover {
+  background-color: rgb(116, 116, 212);
+  color: wheat;
+}
+
+p {
+  color: whitesmoke;
+}

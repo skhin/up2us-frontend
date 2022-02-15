@@ -1,0 +1,43 @@
+.userPage .title h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-top: 40px;
+  margin: 20px;
+}
+
+.dinning_history,
+.diet_preference {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.diet_preference {
+  cursor: pointer;
+  background: #16a085;
+  margin-bottom: 80px;
+  transition: transform 0.2s;
+}
+
+.diet_preference:hover {
+  transform: scale(1.2);
+}
+
+.dinning_history {
+  cursor: pointer;
+  background: #e67e22;
+}
+
+.userOption h1 {
+  padding-left: 5px;
+  color: #fff;
+}
+
+.userOption img {
+  width: 200px;
+  height: 150px;
+}
+
+.userOption {
+  padding-top: 100px;
+}

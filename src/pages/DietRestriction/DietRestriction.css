@@ -1,0 +1,66 @@
+.dietaryRestriction {
+  height: 90vh;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.dietaryRestriction .title {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-top: 40px;
+  margin: 20px;
+}
+
+.prefCard {
+  width: 300px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.prefCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.prefCard h1 {
+  text-align: center;
+  background: #16a085;
+  line-height: 50px;
+  color: #fff;
+}
+
+.dietHeader {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.dietHeader h1 {
+  font-size: 30px;
+}
+
+.dietList {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.ant-checkbox + span {
+  color: white;
+}
+
+.diet_btn {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px 60px 10px 60px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.diet_btn:hover {
+  background-color: rgb(116, 116, 212);
+  color: wheat;
+}

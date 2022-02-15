@@ -1,0 +1,82 @@
+.dietPref .title h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+  padding-top: 40px;
+  margin: 20px;
+}
+
+.diet_card {
+  background: #fb7f00;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  height: max-content;
+  justify-content: space-between;
+}
+
+.diet_card h1 {
+  text-transform: uppercase;
+  color: #090043;
+  padding-bottom: 35px;
+}
+
+.diet_btn {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.diet_btn:hover {
+  background-color: rgb(116, 116, 212);
+  color: wheat;
+}
+
+.img_restriction,
+.img_delicious,
+.img_noEat {
+  width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: center;
+  object-fit: cover;
+  width: 300px;
+  height: 100%;
+}
+
+/* .img_restriction {
+  width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: center;
+  object-fit: cover;
+}
+
+.img_delicious {
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float: center;
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.img_noEat {
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float: center;
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+} */
+
+.diet__row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 40px;
+}

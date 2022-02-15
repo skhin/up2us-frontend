@@ -1,0 +1,49 @@
+.registerForm {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerForm form h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.registerBox {
+  box-shadow: rgba(158, 154, 154, 0.24) 3px 3px 8px;
+  border-radius: 5px;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.registerForm form p {
+  color: #777;
+  font-size: 20px;
+}
+
+.registerForm form p a:hover {
+  text-decoration: underline;
+}
+
+.register-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.register-button:hover {
+  background-color: navy;
+  color: orangered;
+}
+
+.email,
+.userName {
+  margin-bottom: 15px;
+}
+
+.userName {
+  margin-top: 20px;
+}
