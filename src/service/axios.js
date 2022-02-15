@@ -3,8 +3,7 @@ import axios from "axios";
 const token = localStorage.getItem("token");
 
 const axiosInstance = axios.create({
-  baseURL: "https://up2us.netlify.app/api/
-",
+  baseURL: "https://up2us.netlify.app/api/",
   headers: {
     Authorization: token ? `Bearer ${token}` : "",
   },
